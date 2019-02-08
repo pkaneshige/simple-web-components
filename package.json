@@ -16,6 +16,7 @@
   "devDependencies": {
     "@open-wc/building-webpack": "^0.1.7",
     "http-server": "^0.11.1",
+    "lit-element": "^2.0.1",
     "webpack": "^4.29.3",
     "webpack-cli": "^3.2.3",
     "webpack-dev-server": "^3.1.14"
