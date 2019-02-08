@@ -1,10 +1,13 @@
-import {LitElement, html, css} from 'lit-element';
+import {LitElement, html} from 'lit-element';
 import './components/button/swc-button.js';
 
 class SwcApp extends LitElement {
   render() {
     return html`
-      <swc-button label="SWC Button"></swc-button>
+      <swc-button label="Text Button"></swc-button>
+      <swc-button label="Dense" dense={true}></swc-button>
+      <swc-button label="Raised" raised={true}></swc-button>
+      <swc-button label="Outlined" outlined={true}></swc-button>
     `;
   }
 }
