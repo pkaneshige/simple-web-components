@@ -1,5 +1,6 @@
 import {LitElement, html} from 'lit-element';
 import './components/button/swc-button.js';
+import './components/card/swc-card.js';
 
 class SwcApp extends LitElement {
   render() {
